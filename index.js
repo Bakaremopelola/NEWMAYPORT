@@ -1,4 +1,15 @@
 
+document.addEventListener('DOMContentLoaded', function() {
+    const mobileMenuIcon = document.querySelector('.mobile .fa-bars');
+    const mobileMenu = document.querySelector('.linkss1');
+
+    mobileMenuIcon.addEventListener('click', function() {
+        mobileMenu.classList.toggle('open');
+    });
+});
+
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
     let currentSlide = 0;

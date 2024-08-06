@@ -437,6 +437,9 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+.linkss1{
+    display: none;
+}
 
 @media only screen and (max-width: 768px) {
     body{
@@ -446,10 +449,43 @@ footer {
     }
     .hero{
         height: 10vh;
-    }
-    .linkss{
-        display: none;
-    }
+        }
+        .navigator{
+            padding: 0 2em;
+        }
+        .linkss {
+            display: none;
+        }
+        
+        .linkss1.open {
+            display: flex;
+            position: absolute;
+            flex-direction: column;
+            background-color: white;
+            gap: 1em;
+            width: 70vw;
+            height: 50vh;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .linkss1 {
+            transform: translateX(0);
+        }
+        
+        .mobile {
+            position: relative;
+        }
+        
+        .mobile .fa-bars {
+            font-size: 2em;
+            cursor: pointer;
+        }
+        
+    
 .trusted-section img{
     width: 80vw;
 }
