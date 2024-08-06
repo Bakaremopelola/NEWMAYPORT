@@ -439,5 +439,78 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-
+    body{
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero{
+        height: 10vh;
+    }
+    .linkss{
+        display: none;
+    }
+.trusted-section img{
+    width: 80vw;
+}
+.section-mission{
+    width: 80vw;
+    flex-direction: column;
+    height: auto;
+}
+.services{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: auto;
+    padding: 0;
+}
+.photo-grid{
+    grid-template-columns: 1fr;
+}
+.card{
+    width: 80vw;
+}
+.photo1{
+    width: 100vw;
+    margin: 0;
+}
+.executive{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 2em 0;
+    width: 100vw ;
+}
+.ec{
+    width: 80vw;
+}
+.water img{
+    width: 100vw;
+}
+.contacts{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+    padding: 0;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.contact-details div{
+    width: 80vw;
+    margin: 0;
+}
 }
