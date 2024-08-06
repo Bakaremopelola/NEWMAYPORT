@@ -437,6 +437,58 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.footer-content .logo {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    text-align: center;
+}
+
+.footer-content .logo img {
+    max-width: 100px;
+    margin-bottom: 1em;
+}
+
+.footer-content .newsletter {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    text-align: center;
+}
+
+.footer-content .newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 30vh;
+}
+
+.footer-content .newsletter input[type="email"] {
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.25em;
+}
+
+.footer-content .newsletter button {
+    padding: 0.5em;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0.25em;
+}
+
+.footer-content .newsletter button:hover {
+    background-color: limegreen;
+}
+
 .linkss1{
     display: none;
 }
